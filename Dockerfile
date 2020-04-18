@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:12
 ENV APP_ROOT /web
 WORKDIR ${APP_ROOT}
 ADD . ${APP_ROOT}
